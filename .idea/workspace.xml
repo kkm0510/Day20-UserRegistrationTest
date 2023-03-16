@@ -39,21 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "C:/Users/DELL/OneDrive/Desktop/Assignments/Day20-UserRegistrationTest/src/main/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/DELL/OneDrive/Desktop/Assignments/Day20-UserRegistrationTest/src/main/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.userregistration" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="UserRegistrationTest.givenFirstName_IfFirstLetterIsUppercase_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserRegistrationTest.givenLastName_IfFirstCharacterIsUppercase_ShouldReturnTrue">
+    <configuration name="UserRegistrationTest.givenFirstName_IfFirstCharacterIsUppercase_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Day20-UserRegistrationTest" />
       <extension name="coverage">
         <pattern>
@@ -63,7 +63,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.userregistration" />
       <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="givenFirstName_IfFirstLetterIsUppercase_ShouldReturnTrue" />
+      <option name="METHOD_NAME" value="givenFirstName_IfFirstCharacterIsUppercase_ShouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.givenLastName_IfFirstCharacterIsUppercase_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day20-UserRegistrationTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="givenLastName_IfFirstCharacterIsUppercase_ShouldReturnTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,7 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserRegistrationTest.givenFirstName_IfFirstLetterIsUppercase_ShouldReturnTrue" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenLastName_IfFirstCharacterIsUppercase_ShouldReturnTrue" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenFirstName_IfFirstCharacterIsUppercase_ShouldReturnTrue" />
       </list>
     </recent_temporary>
   </component>

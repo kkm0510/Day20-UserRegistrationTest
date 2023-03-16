@@ -12,4 +12,10 @@ public class UserRegistration {
         Matcher matcher= pattern.matcher(name);
         return matcher.matches();
     }
+
+    public boolean checkLastName(String name) {
+        Pattern pattern=Pattern.compile(NAME);
+        Matcher matcher= pattern.matcher(name);
+        return matcher.matches();
+    }
 }
