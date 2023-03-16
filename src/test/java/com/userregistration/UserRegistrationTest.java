@@ -6,16 +6,25 @@ import org.junit.Test;
 public class UserRegistrationTest {
 
     @Test
-    public void givenFirstName_IfFirstCharacterIsUppercase_ShouldReturnTrue(){
+    public void givenFirstName_IfValid_ShouldReturnTrue(){
         UserRegistration registration = new UserRegistration();
         boolean result=registration.checkFirstName("Kartikeya");
         Assert.assertTrue(result);
     }
 
     @Test
-    public void givenLastName_IfFirstCharacterIsUppercase_ShouldReturnTrue(){
+    public void givenLastName_IfValid_ShouldReturnTrue(){
         UserRegistration registration = new UserRegistration();
         boolean result=registration.checkLastName("Maan");
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void givenEmail_IfValid_ShouldReturnTrue(){
+        UserRegistration registration = new UserRegistration();
+        boolean result=registration.checkEmail("kartikeya.maan1997@gmail.com");
+        Assert.assertTrue(result);
+    }
+
+
 }
