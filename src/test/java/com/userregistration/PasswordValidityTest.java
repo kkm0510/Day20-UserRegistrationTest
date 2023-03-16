@@ -23,10 +23,10 @@ public class PasswordValidityTest {
     @Parameterized.Parameters
     public static Collection<Object> input(){
         return Arrays.asList(new Object[][] {
-                {"aK9sadK9&v@", true},
+                {"aK9sadK9v@", true},
                 {"aK9s@", false},
                 {"Kasdf43280sdfk", false},
-                {"2384762K@&$", true},
+                {"2384762K@af", true},
         });
     }
 

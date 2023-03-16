@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c689897-1304-487e-975b-484e9eff16fd" name="Changes" comment="ADDED : code for parameterised test of valid password">
+    <list default="true" id="2c689897-1304-487e-975b-484e9eff16fd" name="Changes" comment="REFACTORED : code for happy and sad cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +40,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/DELL/OneDrive/Desktop/Assignments/Day20-UserRegistrationTest/src/main/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/DELL/OneDrive/Desktop/Assignments/Day20-UserRegistrationTest/src/main/java",
+    "last_opened_file_path": "C:/Users/DELL/OneDrive/Desktop/Assignments/Day20-UserRegistrationTest"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.userregistration" />
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PasswordValidityTest" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenPassword_IfValid_ShouldReturnFalse" />
         <item itemvalue="JUnit.UserRegistrationTest" />
         <item itemvalue="JUnit.PasswordValidityTest.givenMultiplePasswords_IfValid_ShouldReturnTrueElseReturnFalse" />
+        <item itemvalue="JUnit.PasswordValidityTest" />
         <item itemvalue="JUnit.EmailValidityTest.givenMultipleEmailAddress_IfValid_ShouldReturnTrueElseFalse" />
-        <item itemvalue="JUnit.UserRegistrationTest.givenPassword_IfValid_ShouldReturnFalse" />
       </list>
     </recent_temporary>
   </component>
