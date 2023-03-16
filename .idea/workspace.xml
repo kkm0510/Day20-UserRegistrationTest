@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c689897-1304-487e-975b-484e9eff16fd" name="Changes" comment="ADDED : code for valid last name">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/EmailValidityTest.java" afterDir="false" />
+    <list default="true" id="2c689897-1304-487e-975b-484e9eff16fd" name="Changes" comment="ADDED : code for parameterised test of multiple emails">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/PasswordValidityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="UC10-PASSWORD" />
       </map>
     </option>
   </component>
@@ -53,7 +53,7 @@
       <recent name="com.userregistration" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmailValidityTest.givenMultipleEmailAddress_IfValid_ShouldReturnTrueElseFalse">
+  <component name="RunManager" selected="JUnit.PasswordValidityTest.givenMultiplePasswords_IfValid_ShouldReturnTrueElseReturnFalse">
     <configuration name="EmailValidityTest.givenMultipleEmailAddress_IfValid_ShouldReturnTrueElseFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Day20-UserRegistrationTest" />
       <extension name="coverage">
@@ -70,7 +70,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.givenEmail_IfValid_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordValidityTest.givenMultiplePasswords_IfValid_ShouldReturnTrueElseReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Day20-UserRegistrationTest" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +79,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.userregistration" />
-      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="givenEmail_IfValid_ShouldReturnTrue" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.PasswordValidityTest" />
+      <option name="METHOD_NAME" value="givenMultiplePasswords_IfValid_ShouldReturnTrueElseReturnFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PasswordValidityTest.givenMultiplePasswords_IfValid_ShouldReturnTrueElseReturnFalse" />
         <item itemvalue="JUnit.EmailValidityTest.givenMultipleEmailAddress_IfValid_ShouldReturnTrueElseFalse" />
         <item itemvalue="JUnit.UserRegistrationTest.givenPassword_IfValid_ShouldReturnFalse" />
         <item itemvalue="JUnit.UserRegistrationTest.givenPassword_IfValid_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserRegistrationTest.givenMobileNumber_IfValid_ShouldReturnTrue" />
-        <item itemvalue="JUnit.UserRegistrationTest.givenEmail_IfValid_ShouldReturnTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678967362206</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ADDED : code for parameterised test of multiple emails">
+      <created>1678969695319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678969695322</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,6 +196,7 @@
     <MESSAGE value="ADDED : code for valid first name" />
     <MESSAGE value="ADDED : code for valid last name" />
     <MESSAGE value="ADDED : code for valid mobile number test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED : code for valid mobile number test" />
+    <MESSAGE value="ADDED : code for parameterised test of multiple emails" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED : code for parameterised test of multiple emails" />
   </component>
 </project>
