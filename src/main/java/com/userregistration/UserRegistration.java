@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class UserRegistration {
 
-    public static final String NAME="^[A-Z][a-z]{2,}$";
+    public static final String NAME="^[A-Z][a-z]{3,}$";
 
     public boolean checkFirstName(String name) {
         Pattern pattern=Pattern.compile(NAME);

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c689897-1304-487e-975b-484e9eff16fd" name="Changes" comment="ADDED : test user registration test class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="2c689897-1304-487e-975b-484e9eff16fd" name="Changes" comment="ADDED : code for valid first name">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,11 +91,19 @@
       <option name="project" value="LOCAL" />
       <updated>1678964826919</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ADDED : code for valid first name">
+      <created>1678965581755</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678965581756</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADDED : test user registration test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED : test user registration test class" />
+    <MESSAGE value="ADDED : code for valid first name" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED : code for valid first name" />
   </component>
 </project>
