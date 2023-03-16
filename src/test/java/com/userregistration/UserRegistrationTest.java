@@ -32,4 +32,18 @@ public class UserRegistrationTest {
         boolean result=registration.checkMobileNumber("91 9411368453");
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void givenPassword_IfValid_ShouldReturnTrue(){
+        UserRegistration registration = new UserRegistration();
+        boolean result=registration.checkPassword("a*Kbs9dg&Vo");
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void givenPassword_IfValid_ShouldReturnFalse(){
+        UserRegistration registration = new UserRegistration();
+        boolean result=registration.checkPassword("a*bsKdg&Vo");
+        Assert.assertFalse(result);
+    }
 }
