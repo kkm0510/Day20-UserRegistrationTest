@@ -26,5 +26,10 @@ public class UserRegistrationTest {
         Assert.assertTrue(result);
     }
 
-
+    @Test
+    public void givenMobileNumber_IfValid_ShouldReturnTrue(){
+        UserRegistration registration = new UserRegistration();
+        boolean result=registration.checkMobileNumber("91 9411368453");
+        Assert.assertTrue(result);
+    }
 }

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c689897-1304-487e-975b-484e9eff16fd" name="Changes" comment="ADDED : code for valid last name">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="com.userregistration" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRegistrationTest.givenEmail_IfValid_ShouldReturnTrue">
+  <component name="RunManager" selected="JUnit.UserRegistrationTest.givenMobileNumber_IfValid_ShouldReturnTrue">
     <configuration name="UserRegistrationTest.givenEmail_IfValid_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Day20-UserRegistrationTest" />
       <extension name="coverage">
@@ -102,8 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserRegistrationTest.givenMobileNumber_IfValid_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day20-UserRegistrationTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="givenMobileNumber_IfValid_ShouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRegistrationTest.givenMobileNumber_IfValid_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserRegistrationTest.givenEmail_IfValid_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserRegistrationTest.givenLastName_IfFirstCharacterIsUppercase_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserRegistrationTest.givenFirstName_IfFirstCharacterIsUppercase_ShouldReturnTrue" />
