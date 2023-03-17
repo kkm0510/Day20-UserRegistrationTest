@@ -25,7 +25,7 @@ public class PasswordValidityTest {
         return Arrays.asList(new Object[][] {
                 {"aK9sadK9v@", true},
                 {"aK9s@", false},
-                {"Kasdf43280sdfk", false},
+                {"K@sdf@*sdfk", false},
                 {"2384762K@af", true},
         });
     }

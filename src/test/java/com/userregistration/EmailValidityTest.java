@@ -38,7 +38,6 @@ public class EmailValidityTest {
                 {"abc@1.com", true},
                 {"abc@gmail.com.com", true},
                 {"abc+100@gmail.com", true},
-
                 {"abc", false},
                 {"abc@.com.my", false},
                 {"abc123@gmail.a", false},

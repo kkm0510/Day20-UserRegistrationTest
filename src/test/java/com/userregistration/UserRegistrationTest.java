@@ -57,7 +57,7 @@ public class UserRegistrationTest {
     @Test
     public void givenPassword_IfValid_ShouldReturnTrue(){
         UserRegistration registration = new UserRegistration();
-        boolean result=registration.checkPassword("a*Kbs9dg&Vo");
+        boolean result=registration.checkPassword("a-K4s9dgVo");
         Assert.assertTrue(result);
     }
 

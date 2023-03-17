@@ -7,6 +7,8 @@
     <list default="true" id="2c689897-1304-487e-975b-484e9eff16fd" name="Changes" comment="REFACTORED : code for happy and sad cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/PasswordValidityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/PasswordValidityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UC10-PASSWORD" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -40,22 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "C:/Users/DELL/OneDrive/Desktop/Assignments/Day20-UserRegistrationTest/src/main/java",
-    "last_opened_file_path": "C:/Users/DELL/OneDrive/Desktop/Assignments/Day20-UserRegistrationTest"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/DELL/OneDrive/Desktop/Assignments/Day20-UserRegistrationTest/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/OneDrive/Desktop/Assignments/Day20-UserRegistrationTest&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.userregistration" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.PasswordValidityTest">
-    <configuration name="EmailValidityTest.givenMultipleEmailAddress_IfValid_ShouldReturnTrueElseFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmailValidityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Day20-UserRegistrationTest" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +67,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.userregistration" />
       <option name="MAIN_CLASS_NAME" value="com.userregistration.EmailValidityTest" />
-      <option name="METHOD_NAME" value="givenMultipleEmailAddress_IfValid_ShouldReturnTrueElseFalse" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,22 +83,6 @@
       <option name="PACKAGE_NAME" value="com.userregistration" />
       <option name="MAIN_CLASS_NAME" value="com.userregistration.PasswordValidityTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordValidityTest.givenMultiplePasswords_IfValid_ShouldReturnTrueElseReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Day20-UserRegistrationTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.userregistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.userregistration" />
-      <option name="MAIN_CLASS_NAME" value="com.userregistration.PasswordValidityTest" />
-      <option name="METHOD_NAME" value="givenMultiplePasswords_IfValid_ShouldReturnTrueElseReturnFalse" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,13 +118,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserRegistrationTest.givenPassword_IfValid_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day20-UserRegistrationTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="givenPassword_IfValid_ShouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserRegistrationTest.givenPassword_IfValid_ShouldReturnFalse" />
-        <item itemvalue="JUnit.UserRegistrationTest" />
-        <item itemvalue="JUnit.PasswordValidityTest.givenMultiplePasswords_IfValid_ShouldReturnTrueElseReturnFalse" />
         <item itemvalue="JUnit.PasswordValidityTest" />
-        <item itemvalue="JUnit.EmailValidityTest.givenMultipleEmailAddress_IfValid_ShouldReturnTrueElseFalse" />
+        <item itemvalue="JUnit.EmailValidityTest" />
+        <item itemvalue="JUnit.UserRegistrationTest" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenPassword_IfValid_ShouldReturnTrue" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenPassword_IfValid_ShouldReturnFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678971747486</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="REFACTORED : password regex for only one special character">
+      <created>1678974097202</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678974097202</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,6 +212,7 @@
     <MESSAGE value="ADDED : code for valid mobile number test" />
     <MESSAGE value="ADDED : code for parameterised test of multiple emails" />
     <MESSAGE value="ADDED : code for parameterised test of valid password" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED : code for parameterised test of valid password" />
+    <MESSAGE value="REFACTORED : password regex for only one special character" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTORED : password regex for only one special character" />
   </component>
 </project>
