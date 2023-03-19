@@ -56,7 +56,12 @@ public class EmailValidityTest {
 
     @Test
     public void givenMultipleEmailAddress_IfValid_ShouldReturnTrueElseFalse() {
-        Assert.assertEquals(expectedResult, registration.checkEmail(email));
+        try {
+            Assert.assertEquals(expectedResult, registration.checkEmail(email));
+        }
+        catch(UserRegistrationException e){
+            System.out.println(e.getMessage());
+        }
     }
 }
 

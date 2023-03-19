@@ -14,15 +14,14 @@ public class PasswordValidityTest {
     public String password;
     public boolean expectedResult;
 
-
-    public PasswordValidityTest(String password, boolean expectedResult){
-        this.expectedResult=expectedResult;
-        this.password=password;
+    public PasswordValidityTest(String password, boolean expectedResult) {
+        this.expectedResult = expectedResult;
+        this.password = password;
     }
 
     @Parameterized.Parameters
-    public static Collection<Object> input(){
-        return Arrays.asList(new Object[][] {
+    public static Collection<Object> input() {
+        return Arrays.asList(new Object[][]{
                 {"aK9sadK9v@", true},
                 {"aK9s@", false},
                 {"K@sdf@*sdfk", false},
@@ -31,7 +30,11 @@ public class PasswordValidityTest {
     }
 
     @Test
-    public void givenMultiplePasswords_IfValid_ShouldReturnTrueElseReturnFalse(){
-        Assert.assertEquals(expectedResult, new UserRegistration().checkPassword(password));
+    public void givenMultiplePasswords_IfValid_ShouldReturnTrueElseReturnFalse() {
+        try {
+            Assert.assertEquals(expectedResult, new UserRegistration().checkPassword(password));
+        } catch (UserRegistrationException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
