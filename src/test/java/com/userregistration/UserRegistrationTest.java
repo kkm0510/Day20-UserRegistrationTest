@@ -38,25 +38,22 @@ public class UserRegistrationTest {
         }
     }
 
-    @Test(expected = Exception.class)
+    @Test
     public void givenLastName_IfInvalid_ShouldReturnFalse() {
         UserRegistration registration = new UserRegistration();
         try {
-            boolean result = registration.checkName(null);
+            boolean result = registration.checkName("M@an");
             Assert.assertFalse(result);
         } catch (UserRegistrationException e) {
             System.out.println(e.getMessage());
         }
     }
 
-    @Test
+    @Test(expected = Exception.class)
     public void givenName_IfNull_ShouldThrowUserRegistrationException() {
         UserRegistration registration = new UserRegistration();
-        try {
-            registration.checkName(null);
-        } catch (UserRegistrationException e) {
-            Assert.assertEquals(UserRegistrationException.UserExceptionType.NULL, e.type);
-        }
+        registration.checkName(null);
+
     }
 
     @Test
@@ -92,14 +89,10 @@ public class UserRegistrationTest {
         }
     }
 
-    @Test
+    @Test(expected = Exception.class)
     public void givenMobileNumber_IfNull_ThrowsUserRegistrationException() {
         UserRegistration registration = new UserRegistration();
-        try {
-            registration.checkMobileNumber(null);
-        } catch (UserRegistrationException e) {
-            Assert.assertEquals(UserRegistrationException.UserExceptionType.NULL, e.type);
-        }
+        registration.checkMobileNumber(null);
     }
 
     @Test

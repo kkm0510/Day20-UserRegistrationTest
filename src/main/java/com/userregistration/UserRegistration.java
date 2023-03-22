@@ -1,5 +1,6 @@
 package com.userregistration;
 
+import java.util.function.Predicate;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,41 +11,38 @@ public class UserRegistration {
     public static final String MOBILE_NUMBER = "^[0-9]{2}[ ][0-9]{10}$";
     public static final String PASSWORD = "^(?=.{8,})(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9]*[@*#_-][a-zA-Z0-9]*$";
 
-    public boolean checkName(String name) throws UserRegistrationException {
+
+    public boolean checkName(String name) {
         try {
-            Pattern pattern = Pattern.compile(NAME);
-            Matcher matcher = pattern.matcher(name);
-            return matcher.matches();
+            Predicate<String> check = input -> Pattern.compile(NAME).matcher(input).matches();
+            return check.test(name);
         } catch (NullPointerException e) {
             throw new UserRegistrationException(UserRegistrationException.UserExceptionType.NULL, "entered invalid input");
         }
     }
 
-    public boolean checkEmail(String email) throws UserRegistrationException {
+    public boolean checkEmail(String email) {
         try {
-            Pattern pattern = Pattern.compile(EMAIL);
-            Matcher matcher = pattern.matcher(email);
-            return matcher.matches();
+            Predicate<String> check = input -> Pattern.compile(EMAIL).matcher(input).matches();
+            return check.test(email);
         } catch (NullPointerException e) {
             throw new UserRegistrationException(UserRegistrationException.UserExceptionType.NULL, "entered invalid input");
         }
     }
 
-    public boolean checkMobileNumber(String mobileNumber) throws UserRegistrationException {
+    public boolean checkMobileNumber(String mobileNumber)  {
         try {
-            Pattern pattern = Pattern.compile(MOBILE_NUMBER);
-            Matcher matcher = pattern.matcher(mobileNumber);
-            return matcher.matches();
+            Predicate<String> check = input -> Pattern.compile(MOBILE_NUMBER).matcher(input).matches();
+            return check.test(mobileNumber);
         } catch (NullPointerException e) {
             throw new UserRegistrationException(UserRegistrationException.UserExceptionType.NULL, "entered invalid input");
         }
     }
 
-    public boolean checkPassword(String password) throws UserRegistrationException {
+    public boolean checkPassword(String password)  {
         try {
-            Pattern pattern = Pattern.compile(PASSWORD);
-            Matcher matcher = pattern.matcher(password);
-            return matcher.matches();
+            Predicate<String> check = input -> Pattern.compile(PASSWORD).matcher(input).matches();
+            return check.test(password);
         } catch (NullPointerException e) {
             throw new UserRegistrationException(UserRegistrationException.UserExceptionType.NULL, "entered invalid input");
         }

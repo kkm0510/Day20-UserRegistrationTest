@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c689897-1304-487e-975b-484e9eff16fd" name="Changes" comment="REFACTORED : password regex for exactly one special character">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistrationException.java" afterDir="false" />
+    <list default="true" id="2c689897-1304-487e-975b-484e9eff16fd" name="Changes" comment="ADDED : code for custom exception">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/EmailValidityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/EmailValidityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/PasswordValidityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/PasswordValidityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistrationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistrationException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +48,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/DELL/OneDrive/Desktop/Assignments/Day20-UserRegistrationTest/src/main/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/OneDrive/Desktop/DRS/DRS&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/OneDrive/Desktop/Assignments/Day20-UserRegistrationTest&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -58,54 +56,7 @@
       <recent name="com.userregistration" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRegistrationTest">
-    <configuration name="EmailValidityTest.givenMultipleEmailAddress_IfValid_ShouldReturnTrueElseFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Day20-UserRegistrationTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.userregistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.userregistration" />
-      <option name="MAIN_CLASS_NAME" value="com.userregistration.EmailValidityTest" />
-      <option name="METHOD_NAME" value="givenMultipleEmailAddress_IfValid_ShouldReturnTrueElseFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordValidityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Day20-UserRegistrationTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.userregistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.userregistration" />
-      <option name="MAIN_CLASS_NAME" value="com.userregistration.PasswordValidityTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordValidityTest.givenMultiplePasswords_IfValid_ShouldReturnTrueElseReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Day20-UserRegistrationTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.userregistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.userregistration" />
-      <option name="MAIN_CLASS_NAME" value="com.userregistration.PasswordValidityTest" />
-      <option name="METHOD_NAME" value="givenMultiplePasswords_IfValid_ShouldReturnTrueElseReturnFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserRegistrationTest.givenLastName_IfInvalid_ShouldReturnFalse">
     <configuration name="UserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Day20-UserRegistrationTest" />
       <extension name="coverage">
@@ -117,6 +68,22 @@
       <option name="PACKAGE_NAME" value="com.userregistration" />
       <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.givenFirstName_IfValid_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day20-UserRegistrationTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="givenFirstName_IfValid_ShouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,13 +104,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserRegistrationTest.givenMobileNumber_IfNull_ThrowsUserRegistrationException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day20-UserRegistrationTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="givenMobileNumber_IfNull_ThrowsUserRegistrationException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.givenName_IfNull_ShouldThrowUserRegistrationException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day20-UserRegistrationTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="givenName_IfNull_ShouldThrowUserRegistrationException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserRegistrationTest" />
         <item itemvalue="JUnit.UserRegistrationTest.givenLastName_IfInvalid_ShouldReturnFalse" />
-        <item itemvalue="JUnit.PasswordValidityTest.givenMultiplePasswords_IfValid_ShouldReturnTrueElseReturnFalse" />
-        <item itemvalue="JUnit.EmailValidityTest.givenMultipleEmailAddress_IfValid_ShouldReturnTrueElseFalse" />
-        <item itemvalue="JUnit.PasswordValidityTest" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenMobileNumber_IfNull_ThrowsUserRegistrationException" />
+        <item itemvalue="JUnit.UserRegistrationTest" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenFirstName_IfValid_ShouldReturnTrue" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenName_IfNull_ShouldThrowUserRegistrationException" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678974097202</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ADDED : code for custom exception">
+      <created>1679193210866</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679193210866</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -216,26 +222,7 @@
     <MESSAGE value="ADDED : code for parameterised test of multiple emails" />
     <MESSAGE value="ADDED : code for parameterised test of valid password" />
     <MESSAGE value="REFACTORED : password regex for only one special character" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTORED : password regex for only one special character" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java</url>
-          <line>73</line>
-          <properties class="com.userregistration.UserRegistrationTest" method="givenMobileNumber_IfValid_ShouldReturnTrue">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="ADDED : code for custom exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED : code for custom exception" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 package com.userregistration;
 
-public class UserRegistrationException extends Exception {
+public class UserRegistrationException extends RuntimeException {
 
     enum UserExceptionType {
         NULL;
